@@ -1,0 +1,41 @@
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+.sect1{
+  position: relative;
+  min-height: 400px;
+}
+
+.form-container{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  width: 100%;
+  padding: 15px 2%;
+  max-width: 700px;
+}
+
+h2.custom-title{
+  position: relative;
+  font-size: 30px;
+  color: #777;
+}
+
+h2.custom-title > div{
+  width: 100%;
+  position: absolute;
+  height: 3px;
+  background: #777;
+  left: 0;
+  top: 0;  
+}
+
+.card-content p{
+  color:#777; 
+
+}
